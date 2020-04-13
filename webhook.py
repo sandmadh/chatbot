@@ -31,7 +31,9 @@ def makeResponse(req):
     speech = "The interest rate is " + str(cost[bank])
     print("Response:")
     print(speech)
-    return dict(fullfillmentText=speech,speech=speech, displaytext=speech, source="BankInterestRates")
+    return {
+        "fulfillmentText:speech
+    }
 
 
 if __name__ == '__main__':
