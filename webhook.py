@@ -36,7 +36,7 @@ def makeResponse(req):
         {
             "text": {
                 "text": [
-                    "I am here...yaaaaaaaaaaa"
+                    speech
                 ]
             }
         }
